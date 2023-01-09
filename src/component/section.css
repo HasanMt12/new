@@ -36,3 +36,16 @@
     display: flex;
     display: flex;
 }
+@media screen and (max-width: 780px) {
+    .sectionContainer {
+
+        display: flex;
+        flex-direction: column-reverse;
+        color: rgb(245, 241, 241);
+        /* margin-bottom: 30vw;
+        margin-left: 20%; */
+
+    }
+
+    
+}

@@ -4,7 +4,7 @@ import img1 from "../assets/ILLUSTRATION.png";
 import './Header.css'
 const Header = () => {
   return (
-    <div>
+    <div >
       <div className="HeaderStyle"
         style={{
           border: "2px solid blue",
@@ -39,6 +39,7 @@ const Header = () => {
           fontSize: "24px",
         }}
       >
+        
         <div style={{ width: "50%" }}>
           <p style={{ color: "blue", fontSize: "26px",margin: "3% 0%" ,opacity:'0.7', }}>
             Claim a Free Quote
