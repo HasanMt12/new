@@ -3,10 +3,13 @@
 
 
 @media screen and (max-width: 550px) {
-   
-.custom-Hero{
-    display: flex;
-        flex-direction: column-reverse;
-}
 
+    .custom-Hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .HeaderStyle{
+        width: 100%;
+    }
 }

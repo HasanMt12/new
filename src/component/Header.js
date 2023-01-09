@@ -22,15 +22,15 @@ const Header = () => {
         }}
       >
         <img
-          style={{ marginRight: "12px", color: "blue" }}
+          style={{ marginRight: "12px", color: "blue" ,  }}
           src={search}
           alt=""
         />
-        <strong style={{ fontSize: "28px", paddingTop: "2px" }}>
+        <strong style={{ fontSize: "28px",fontWeight:"bold", paddingTop: "2px" }}>
           Search a Term | Topic
         </strong>
       </div>
-      <div
+      <div className="custom-Hero"
         style={{
           display: "flex",
           justifyContent: "space-evenly",

@@ -1,11 +1,13 @@
 import React from 'react';
 import './style.css'
 import navLogo from '../assets/Group 114.png'
+import nav from '../assets/nav.png'
 const Navbar = () => {
     return (
-        <nav className='nav' style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
+        <div>
+        <nav  style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
             <div><img src={navLogo} alt="" /></div>
-            <div style={{display:'flex', justifyContent:'space-evenly', alignItems:'center', gap:'20px',fontSize:'24px'}}>
+            <div className='nav__menu' >
                 
                     <a href='#Home'>Home</a>
                     <a href='#Services'>Services</a>
@@ -15,6 +17,9 @@ const Navbar = () => {
                 
             </div>
         </nav>
+        
+           <button className='collaps' ><img style={{width:"50px", height:"50px"}} src={nav} alt=''></img></button> 
+        </div>
     );
 };
 

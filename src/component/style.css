@@ -1,0 +1,27 @@
+.nav__menu{
+
+  display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     gap:'20px';
+     font-size:1.2rem;
+    gap: 3.5rem;
+    }
+.collaps{
+    visibility: hidden;
+   
+}
+/* hide nav menu on tablets and phones */
+@media screen and (max-width: 1024px){
+    .nav__menu{
+    display: none;
+    }
+    .collaps{
+    visibility: visible;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 90%;
+    margin-top: -50px;
+     
+}
+ }
