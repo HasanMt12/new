@@ -1,0 +1,14 @@
+.HeaderStyle {}
+
+@media screen and (max-width: 780px) {
+    .HeaderStyle {
+
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin-bottom: 30vw;
+        margin-left: 20%; */
+
+    }
+
+
+}

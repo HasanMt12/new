@@ -1,0 +1,47 @@
+.blogContainer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10%;
+    gap: 10%;
+    margin: 10% auto;
+
+}
+
+.mission {
+    color: gray;
+    font-size: 29px;
+    opacity: 0.7;
+    margin: 2% 0%;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .blogContainer {
+
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin-bottom: 30vw;
+        margin-left: 20%; */
+
+    }
+
+    .bank {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .singleBlog {
+        display: center;
+        text-align: center;
+    }
+
+    .mission {
+        display: center;
+        text-align: center;
+        font-size: 20px;
+
+
+    }
+}

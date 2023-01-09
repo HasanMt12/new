@@ -8,6 +8,7 @@ import img5 from "../assets/Group.png";
 import img6 from "../assets/Group-2.png";
 import img7 from "../assets/Group-1.png";
 import img8 from "../assets/Vector.png";
+import './Design.css'
 const Design = () => {
   return (
     <section>
@@ -42,39 +43,35 @@ const Design = () => {
           <img src={Play} alt="Play" />
         </div>
       </div>
-      <div style={{ textAlign: "center", margin: "3% auto", width: "50%" }}>
+      <div  style={{ textAlign: "center", margin: "3% auto", width: "50%" }}>
         <strong style={{ fontSize: "35px" }}>
           Dedicated <br />
           to our mission we are
         </strong>
-        <p
-          style={{
-            color: "gray",
-            fontSize: "29px",
-            opacity: "0.7",
-            margin: "2% 0%",
-          }}
+        <p className="mission"
         >
           Our services include Company Formation & Renewals, Trust & Fiduciary,
           Tax Residency Setup With Family, Bank Accounts, Remote Management,
           Stock Trading Platforms, Ownership Solutions
         </p>
       </div>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: " repeat(3, 400px)",
-          columnGap: " 10%",
-          gap: "10%",
-          margin: "10% auto",
-        }}
-      >
-        <div>
+      <div className="blogContainer"
+        // style={{
+        //   display: "grid",
+        //   gridTemplateColumns: " repeat(3, 400px)",
+        //   columnGap: " 10%",
+        //   gap: "10%",
+        //   margin: "10% auto",
+        // }}
+      > 
+      
+      
+<div className="singleBlog">
           <div style={{ margin: "3% 0%" }}>
             <img src={img1} alt="" />
           </div>
           <h2>UAE Free Zone Company</h2>
-          <p
+          <p 
             style={{
               color: "gray",
               fontSize: "22px",
@@ -88,8 +85,8 @@ const Design = () => {
           </p>
           <h2 style={{ color: "orange", opacity: "0.7" }}>Get Started</h2>
         </div>
-        <div>
-          <div style={{ margin: "3% 0%" }}>
+        <div className="singleBlog">
+         <div style={{ margin: "3% 0%" }}>
             <img src={img2} alt="" />
           </div>
           <h2>UAE Free Zone Company</h2>
@@ -107,7 +104,7 @@ const Design = () => {
           </p>
           <h2 style={{ color: "orange", opacity: "0.7" }}>Get Started</h2>
         </div>
-        <div>
+        <div className="singleBlog">
           <div style={{ margin: "3% 0%" }}>
             <img src={img3} alt="" />
           </div>
@@ -126,7 +123,10 @@ const Design = () => {
           </p>
           <h2 style={{ color: "orange", opacity: "0.7" }}>Get Started</h2>
         </div>
+
       </div>
+        
+      
       {/* design */}
       <div style={{ width: "91%", margin: "auto",display:'flex', gap:'20px' }}>
         <div>
@@ -144,7 +144,9 @@ const Design = () => {
           >
             Claim a Free Quote
           </span>
-          <div
+
+          <div>
+ <div
             style={{
               border: "2px solid gray",
               padding: "10px",
@@ -232,6 +234,8 @@ const Design = () => {
               </div>
             </div>
           </div>
+          </div>
+         
         </div>
         <div>
       

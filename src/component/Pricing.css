@@ -1,0 +1,57 @@
+.priceContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+
+    margin-right: 200px;
+}
+
+.priceOption {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.priceButton {
+    background-color: white;
+    color: rgb(75, 75, 187);
+    border: 2px solid rgb(75, 75, 187);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.priceHeader{
+     margin:100px auto;
+  width: 60%;
+  text-align: center;
+  
+}
+.customBorder{
+    border-bottom: 5px solid rgb(207, 155, 11);
+}
+.priceBox {
+    border: 2px solid rgb(240, 232, 232);
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 40px;
+    color: rgb(75, 75, 187);
+    height: 97%;
+    align-self: center;
+}
+
+.priceBoxMiddle {
+    border: 2px solid rgb(75, 75, 187);
+    background-color: rgb(75, 75, 187);
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 40px;
+    color: white;
+}

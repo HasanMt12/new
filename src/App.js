@@ -2,6 +2,8 @@ import Navbar from "./component/Navbar";
 import Header from './component/Header';
 import Design from './component/Design';
 import Footer from "./component/Footer";
+import Pricing from "./component/Pricing";
+import Section from "./component/Section";
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
       <Navbar></Navbar>
       <Header></Header>
       <Design></Design>
+      <Pricing></Pricing>
+      <Section></Section>
       <Footer></Footer>
     </div>
   );

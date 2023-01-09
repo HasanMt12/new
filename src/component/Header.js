@@ -1,10 +1,11 @@
 import React from "react";
 import search from "../assets/icons8-found-24.png";
 import img1 from "../assets/ILLUSTRATION.png";
+import './Header.css'
 const Header = () => {
   return (
     <div>
-      <div
+      <div className="HeaderStyle"
         style={{
           border: "2px solid blue",
           width: "25%",
