@@ -233,7 +233,9 @@ const Design = () => {
                 <img src={img8} alt="" />
               </div>
             </div>
+            
           </div>
+          
           </div>
          
         </div>
@@ -254,13 +256,15 @@ const Design = () => {
               <img src={img5} alt="" />
             </div>
             <div style={{ width: "87%", margin: "auto" }}>
-              <h1 style={{}}>Bank Account Setup</h1>
+              <h1 style={{}}>Advice & Guidance</h1>
               <p style={{ color: "gray", fontSize: "24px", margin: "3% 0%" }}>
-                There are many banks in the United Arab Emirates [UAE]. Both
-                locally owned and branches of multinational ones. Foreign banks
-                adjust according to their parent s strategies and have changed
-                local requirements overnight in the past. But we are here to
-                help you
+                All activities in the UAE are licensed. Whether manufacturing, finance, 
+trading, marketing, consultancy or 
+restaurants. In some countries only 
+manufacturing is licensed. In others 
+there is a threshold below which 
+business are encouraged. Get our 
+insightfull guidance today.
               </p>
               <div
                 style={{
@@ -298,13 +302,15 @@ const Design = () => {
               <img src={img7} alt="" />
             </div>
             <div style={{ width: "87%", margin: "auto" }}>
-              <h1 style={{}}>UAE Company Visas</h1>
+              <h1 style={{}}>Registration Document Perparation</h1>
               <p style={{ color: "gray", fontSize: "24px", margin: "3% 0%" }}>
-                Your application for visas is critical especially if you intend
-                to move to Dubai. This becomes even more urgent if your family
-                will also move with you. All the paperwork is done on your
-                behalf smoothly so that you may only focus on doing what matters
-                most to you.
+                Several documents must be 
+prepared to start the process of 
+registering a new company in the 
+United Arab Emirates. Be it a Dubai 
+local company, a free zone one or an 
+offshore entity. Your registered agent is dedicated to get this done 
+for you for a seamless process.
               </p>
               <div
                 style={{
@@ -328,7 +334,25 @@ const Design = () => {
                 <img src={img8} alt="" />
               </div>
             </div>
+            
+            
           </div>
+          <p style={{ fontWeight: "30px", fontSize: "30px",  }}>
+            We have gathered a team of <br></br>
+professionals to craft adequate <br></br>
+services you can rely on for a friction <br></br>
+free setup in UAE.
+          </p>
+          <span
+            style={{
+              color: "blue",
+              fontSize: "26px",
+              margin: "1% 0%",
+              opacity: "0.7",
+            }}
+          >
+            Claim a Free Quote 
+          </span>  <img src={img8} alt="" />
           </div>
         </div>
       </div>
